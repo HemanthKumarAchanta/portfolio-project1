@@ -229,7 +229,7 @@
   .mobile-error h1 {
     font-family: montserrat;
     font-size: 10px;
-    margin-top: 70px;
+    margin-top: 10em;
   }
   .mobile-error .logo {
     transform: rotate(-90deg);
