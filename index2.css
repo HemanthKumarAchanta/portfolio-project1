@@ -108,23 +108,15 @@
   text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.9);
 }
 
-.container3 text {
-  text-align: center;
-}
-
-.container3 ul {
+.container3 .text {
   font-family: Poppins;
   list-style-type: none;
-  margin-left: 135px;
-  justify-content: center;
   text-align: center;
-  display: inline-table;
 }
 
-.container3 .text li {
+.container3 .text .skill {
   background-color: #60bcdc;
   margin-bottom: 3px;
-  width: max-content;
+  padding: 3px;
   display: inline-block;
-  padding: 4 px;
 }
