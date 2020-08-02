@@ -1,0 +1,130 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  z-index: 5;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 40px;
+  background-color: white;
+}
+
+.wrapper {
+  margin: 0px 40px 0px 40px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.top .container1 {
+  background-color: #60bcdc;
+}
+
+.top .container2 {
+  background-color: #f8f8f8;
+  height: 620px;
+}
+.top .text {
+  font-family: Gilroy-Heavy;
+  font-size: 45px;
+  color: #1c1b20;
+  line-height: 0.2;
+  position: relative;
+  text-align: left;
+  float: right;
+  z-index: 50px;
+  margin-top: 180px;
+}
+.top .text .name {
+  margin-right: -220px;
+}
+
+.top .dot {
+  color: #60bcdc;
+}
+.summary {
+  background-color: #f8f8f8;
+}
+
+.summary .containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 620px 620px;
+}
+
+.summary .container1 {
+  margin: 100px;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.container1 .highlight {
+  font-weight: 900;
+}
+
+.container2 .text {
+  margin: 100px;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.job-title {
+  font-weight: 900;
+  background-color: #60bcdc;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+.intern-period {
+  font-weight: 900;
+  margin: 10px;
+}
+@font-face {
+  font-family: Gilroy-Heavy;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Heavy ☞"), url("fonts/Gilroy-Heavy.woff") format("woff");
+}
+
+.title {
+  font-family: Gilroy-Heavy;
+  font-size: 30px;
+  text-align: center;
+  color: #60bcdc;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+.container3 text {
+  text-align: center;
+}
+
+.container3 ul {
+  font-family: Poppins;
+  list-style-type: none;
+  margin-left: 135px;
+  justify-content: center;
+  text-align: center;
+  display: inline-table;
+}
+
+.container3 .text li {
+  background-color: #60bcdc;
+  margin-bottom: 3px;
+  width: max-content;
+  display: inline-block;
+  padding: 4 px;
+}
