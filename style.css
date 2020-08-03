@@ -260,6 +260,20 @@
   z-index: 200;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #60bcdc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5581c4;
+}
+
 @media screen and (max-width: 768px) {
   .wrapper {
     display: none;
