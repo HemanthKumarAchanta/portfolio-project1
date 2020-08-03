@@ -298,6 +298,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    margin: 0px 0px 0px 0px;
+  }
   .laptop {
     display: none;
   }
@@ -308,13 +315,19 @@
     font-size: 0.6em;
     transform: translate(-34%);
   }
+  .top .container1 {
+    height: 100vh;
+  }
+  .top .container2 {
+    height: 100vh;
+  }
   .parallax-window {
     display: none;
   }
   .profile-summary {
     display: block;
     margin-bottom: 0;
-    height: 110vh;
+    height: 120vh;
   }
   .profile-summary .heading {
     font-size: 3em;
@@ -345,5 +358,8 @@
   .container4 .projects {
     padding: 15em;
     font-size: 0.2em;
+  }
+  .name h1 {
+    margin-bottom: 0.7em;
   }
 }
