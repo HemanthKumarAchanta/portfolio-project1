@@ -120,7 +120,7 @@
 
 .intern-period {
   font-weight: 900;
-  margin: 10px;
+  /* margin: 10px; */
 }
 @font-face {
   font-family: Gilroy-Heavy;
@@ -296,6 +296,9 @@
 .mobile {
   display: none;
 }
+#mobile {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   * {
@@ -305,15 +308,22 @@
   .wrapper {
     margin: 0px 0px 0px 0px;
   }
+  #laptop {
+    display: none;
+  }
   .laptop {
     display: none;
+  }
+  #mobile {
+    display: inline-block;
   }
   .mobile {
     display: block;
   }
   .name {
-    font-size: 0.6em;
-    transform: translate(-34%);
+    font-size: 0.7em;
+    transform: translate(-23%);
+    /* text-align: center; */
   }
   .top .container1 {
     height: 100vh;
@@ -322,7 +332,9 @@
     height: 100vh;
   }
   .parallax-window {
-    display: none;
+    min-height: 200px;
+    /* display: none; */
+    /* min-height: 50%; */
   }
   .profile-summary {
     display: block;
@@ -351,6 +363,17 @@
     margin-top: -2em;
     padding-bottom: 10em;
   }
+  .work-experience {
+    text-align: center;
+  }
+
+  .work-experience .job-title {
+    /* min-width: 15em;
+    max-width: 16em; */
+  }
+  /* .intern-period {
+    min-width: 15em;
+  } */
 
   .container4 {
     font-size: 1rem;
@@ -361,5 +384,40 @@
   }
   .name h1 {
     margin-bottom: 0.7em;
+  }
+  .profile-summary .content {
+    text-align: center;
+    max-width: 200px;
+  }
+  .top .container1 .text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
+  .profile-summary .content {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+  .profile-summary .heading {
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+  }
+  .container4 {
+    padding: 0;
+  }
+  .scroll {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    transform: rotate(-90deg);
+    font-family: poppins;
+    font-weight: 800;
+  }
+  .scroll svg {
+    max-width: 1.5em;
   }
 }
