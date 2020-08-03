@@ -1,3 +1,6 @@
+/* * {
+  overflow-x: hidden;
+} */
 .header {
   position: fixed;
   top: 0;
@@ -158,7 +161,13 @@
 }
 
 .container4 {
+  overflow: hidden;
+}
+
+.projects {
   background-color: #1c1b20;
+  padding-top: 0.1rem;
+  padding-bottom: 10px;
 }
 
 .projects p {
