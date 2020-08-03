@@ -217,6 +217,12 @@
   display: none;
 }
 
+.parallax-window {
+  min-height: 400px;
+  /* background: transparent; */
+  z-index: 200;
+}
+
 @media screen and (max-width: 768px) {
   .wrapper {
     display: none;
