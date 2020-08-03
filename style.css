@@ -274,7 +274,7 @@
   background: #5581c4;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .wrapper {
     display: none;
   }
@@ -290,5 +290,60 @@
   }
   .mobile-error .logo {
     transform: rotate(-90deg);
+  }
+} */
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .laptop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .name {
+    font-size: 0.6em;
+    transform: translate(-34%);
+  }
+  .parallax-window {
+    display: none;
+  }
+  .profile-summary {
+    display: block;
+    margin-bottom: 0;
+    height: 110vh;
+  }
+  .profile-summary .heading {
+    font-size: 3em;
+    margin-top: 0;
+    padding-top: 1em;
+  }
+
+  .profile-summary .content {
+    margin-top: 2rem;
+  }
+  .summary {
+    margin-top: -7em;
+    padding-top: 1em;
+  }
+
+  .summary .containers {
+    display: block;
+  }
+
+  .summary .containers .container3 {
+    margin-top: -2em;
+    padding-bottom: 10em;
+  }
+
+  .container4 {
+    font-size: 1rem;
+  }
+  .container4 .projects {
+    padding: 15em;
+    font-size: 0.2em;
   }
 }
